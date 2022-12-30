@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Open+Sans:ital,wght@0,400;1,300;1,600&display=swap"
+      rel="stylesheet"
+    />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="navbar">
+        <img src="img/logo.png" alt="trillo logo" class="logo" />
+        <input type="text" class="search" placeholder="Search hotels" />
+        <div class="navbar__user-box">
+          <div class="navbar__user-location">
+            <svg class="navbar__user-location--icon">
+              <use xlink:href="img/sprite.svg#icon-bookmark"></use>
+            </svg>
+            <span class="navbar__user-location--number">13</span>
+          </div>
+          <div class="navbar__user-messages">
+            <svg class="navbar__user-messages--icon">
+              <use xlink:href="img/sprite.svg#icon-bubble"></use>
+            </svg>
+            <span class="navbar__user-messages--number">7</span>
+          </div>
+          <img src="img/user.jpg" alt="User photo" class="navbar__user-photo" />
+          <div class="navbar__user-name">Jonas</div>
+        </div>
+      </div>
+      <div class="content">
+        <div class="content__sidebar">
+          <div class="content__sidebar--categories">
+            <div class="content__sidebar--category">Hotel</div>
+            <div class="content__sidebar--category">Flight</div>
+            <div class="content__sidebar--category">Car rental</div>
+            <div class="content__sidebar--category">Tours</div>
+          </div>
+          <div class="content__sidebar--copyrights">
+            Lorem ipsum dolor sit, amet. All rights reserved.
+          </div>
+        </div>
+
+        <div class="content__main-content">
+          <div class="content__gallery">
+            <div class="content__gallery__photo--box">
+              <img
+                src="img/hotel-1.jpg"
+                alt="Photo of hotel 1"
+                class="content__gallery__photo--item"
+              />
+            </div>
+            <div class="content__gallery__photo--box">
+              <img
+                src="img/hotel-2.jpg"
+                alt="Photo of hotel 2"
+                class="content__gallery__photo--item"
+              />
+            </div>
+            <div class="content__gallery__photo--box">
+              <img
+                src="img/hotel-3.jpg"
+                alt="Photo of hotel 3"
+                class="content__gallery__photo--item"
+              />
+            </div>
+          </div>
+          <div class="content__text">
+            <div class="content__text--header">
+              <div class="content__text--header__left-side">
+                <p>Hotel las palmas</p>
+              </div>
+              <div class="content__text--header__right-side">
+                <p>Albufeira, Portugal</p>
+                <div class="votes-box">
+                  <div class="votes-average">8.6</div>
+                  <div class="votes-count">429 Votes</div>
+                </div>
+              </div>
+            </div>
+            <div class="content__text--box">
+              <div class="content__text--big-text__container">
+                <div class="content__text--big-text">
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    Animi nisi dignissimos debitis ratione sapiente saepe.
+                    Accusantium cumque, quas, ut corporis incidunt deserunt quae
+                    architecto voluptate.
+                  </p>
+
+                  <p>
+                    Accusantium cumque, quas, ut corporis incidunt deserunt quae
+                    architecto voluptate delectus, inventore iure aliquid
+                    aliquam.
+                  </p>
+                </div>
+                <ul class="list">
+                  <div class="list--left">
+                    <li class="list__item">Close to the beach</li>
+                    <li class="list__item">Breakfast included</li>
+                    <li class="list__item">Free airport shuttle</li>
+                    <li class="list__item">Free wifi in all rooms</li>
+                  </div>
+
+                  <div class="list--right">
+                    <li class="list__item">Air conditioning and heating</li>
+                    <li class="list__item">Pets allowed</li>
+                    <li class="list__item">We speak all languages</li>
+                    <li class="list__item">Perfect for families</li>
+                  </div>
+                </ul>
+                <div class="rec">
+                  <p class="rec__text">
+                    Lucy and 3 other friends recommend this hotel
+                  </p>
+                  <div class="rec__photos">
+                    <img
+                      src="img/user-3.jpg"
+                      alt="Friend 1"
+                      class="rec__photo"
+                    />
+                    <img
+                      src="img/user-4.jpg"
+                      alt="Friend 2"
+                      class="rec__photo"
+                    />
+                    <img
+                      src="img/user-5.jpg"
+                      alt="Friend 3"
+                      class="rec__photo"
+                    />
+                    <img
+                      src="img/user-6.jpg"
+                      alt="Friend 4"
+                      class="rec__photo"
+                    />
+                  </div>
+                </div>
+              </div>
+              <div class="content__text--small-text__container">
+                <div class="content__text--small-text">
+                  <div class="content__text--small-text__text">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    Fuga doloremque architecto dicta animi, totam, itaque
+                    officia ex
+                  </div>
+                  <div class="content__text--small-text__user">
+                    <img
+                      src="img/user-1.jpg"
+                      alt="User 1"
+                      class="review__photo"
+                    />
+                    <div class="content__text--small-text__user--name-date-box">
+                      <div class="content__text--small-text__user--name">
+                        nick smith
+                      </div>
+                      <div class="content__text--small-text__user--date">
+                        Feb 23rd, 2017
+                      </div>
+                    </div>
+                    <div class="content__text--small-text__user--rating">
+                      7.8
+                    </div>
+                  </div>
+                </div>
+                <div class="content__text--small-text">
+                  <div class="content__text--small-text__text">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    Fuga doloremque architecto dicta animi.
+                  </div>
+                  <div class="content__text--small-text__user">
+                    <img
+                      src="img/user-2.jpg"
+                      alt="User 1"
+                      class="review__photo"
+                    />
+                    <div class="content__text--small-text__user--name-date-box">
+                      <div class="content__text--small-text__user--name">
+                        MARY THOMAS
+                      </div>
+                      <div class="content__text--small-text__user--date">
+                        Sept 13th, 2017
+                      </div>
+                    </div>
+                    <div class="content__text--small-text__user--rating">
+                      9.3
+                    </div>
+                  </div>
+                </div>
+                <div class="content__text--button-box">
+                  <p class="content__text--button" href="#">Show all &rarr;</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
